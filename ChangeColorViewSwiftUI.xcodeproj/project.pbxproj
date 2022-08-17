@@ -11,6 +11,10 @@
 		E66CED7728ACFC21004E143B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CED7628ACFC21004E143B /* ContentView.swift */; };
 		E66CED7928ACFC23004E143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66CED7828ACFC23004E143B /* Assets.xcassets */; };
 		E66CED7C28ACFC23004E143B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66CED7B28ACFC23004E143B /* Preview Assets.xcassets */; };
+		E66CED8328ACFC46004E143B /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CED8228ACFC46004E143B /* ColorView.swift */; };
+		E66CED8528AD019F004E143B /* SliderColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CED8428AD019F004E143B /* SliderColorView.swift */; };
+		E66CED8728AD06E0004E143B /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CED8628AD06E0004E143B /* TextFieldView.swift */; };
+		E66CED8928AD390D004E143B /* ChangeColorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66CED8828AD390D004E143B /* ChangeColorStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E66CED7628ACFC21004E143B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E66CED7828ACFC23004E143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66CED7B28ACFC23004E143B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E66CED8228ACFC46004E143B /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		E66CED8428AD019F004E143B /* SliderColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorView.swift; sourceTree = "<group>"; };
+		E66CED8628AD06E0004E143B /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		E66CED8828AD390D004E143B /* ChangeColorStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				E66CED7428ACFC21004E143B /* ChangeColorViewSwiftUIApp.swift */,
 				E66CED7628ACFC21004E143B /* ContentView.swift */,
+				E66CED8228ACFC46004E143B /* ColorView.swift */,
+				E66CED8628AD06E0004E143B /* TextFieldView.swift */,
+				E66CED8428AD019F004E143B /* SliderColorView.swift */,
+				E66CED8828AD390D004E143B /* ChangeColorStackView.swift */,
 				E66CED7828ACFC23004E143B /* Assets.xcassets */,
 				E66CED7A28ACFC23004E143B /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66CED8328ACFC46004E143B /* ColorView.swift in Sources */,
+				E66CED8928AD390D004E143B /* ChangeColorStackView.swift in Sources */,
+				E66CED8728AD06E0004E143B /* TextFieldView.swift in Sources */,
+				E66CED8528AD019F004E143B /* SliderColorView.swift in Sources */,
 				E66CED7728ACFC21004E143B /* ContentView.swift in Sources */,
 				E66CED7528ACFC21004E143B /* ChangeColorViewSwiftUIApp.swift in Sources */,
 			);
